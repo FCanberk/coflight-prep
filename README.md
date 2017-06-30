@@ -27,12 +27,12 @@ For Atlas Global     15 International 15 Domestic flights,
 For Onur Air         15 International 15 Domestic flights data 
 should be scraped with and without deleting cookies.
 
-These datas should scraped every hour of everyday. By doing this we will have informations like the cheapest ticket can be found on what time of the year or month or week. 
+These data should be scraped every hour of everyday. By doing this we will have informations like the cheapest ticket can be found on what time of the year or month or week. 
 
 
 ### **2. DATA COLLECTION**
 
-Scraped datas should stored in separate databases for each company. Each database should store ticket price, flight date&time, destination, date&time(UTC +03:00) when scraped infos taken. MongoDB will used as database in this project.
+Scraped data should stored in separate databases for each company. Each database should store ticket price, flight date&time, destination, date&time(UTC +03:00) when scraped infos taken. MongoDB will used as database in this project.
 
 ### **3. DEMONSTRATING**
 
