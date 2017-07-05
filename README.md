@@ -34,7 +34,7 @@ Collected data will be demonstrated in different graphics to compare ticket pric
 * Daily ticket price
 * Weekly ticket price
 * Monthly ticket price
-* Yearly ticket price graphics will be demonstrated
+* Annualy ticket price graphics will be demonstrated
 
 ### Bonus Objectives
 

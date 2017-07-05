@@ -4,22 +4,18 @@ Below are the modules in the project.
 
 - Scrapers
 - Orchestrators
-- Scraping Gateway
 - Reporting Web Server
 - Reporting App Server
 - Database
 
 ### Scrapers
 
-bla bla bla
+This module is to gather flight information from the airline companies.There will be four scrapers for four airline companies and each scraper will gather flight information with and without cookies. Flight query will be made according to input format and output will be generated formatted. Input and output format specified in [scraping guide](https://github.com/FCanberk/coflight-prep/blob/master/guides/scraping%20guide.md).
+
 
 ### Orchestrator
 
-bla bla bla
-
-### Scraping Gateway
-
-bla bla bla
+This module is to organize and communicate with other modules. It sets the input value for `Scrapers` and gets the output value from scrapers. If the output is legit it pass `App Server` the output value.
 
 ### Reporting Web Server
 
@@ -27,7 +23,7 @@ Scraped information will be made available for the users. They will be able to q
 
 ### Reporting App Server
 
-This module is to provide an interface to the database for inserting and querying scrap data. It will be used by the web server to retrieve information requested by the users in browsers and the persistence requests from `Scraping Gateway`
+This module is to provide an interface to the database for inserting and querying scrap data. It will be used by the web server to retrieve information requested by the users in browsers and the persistence requests from `Orchestrator`
 
 ### Database
 

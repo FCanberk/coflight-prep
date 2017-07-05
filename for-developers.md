@@ -15,7 +15,7 @@ Coflight will run on AWS and **Selenium Web Driver**, **Javascript(NodeJS)** and
 Here are examples for [**Turkish Airlines**](https://github.com/FCanberk/Scraping/blob/master/Ist_Lon.js) ,
  [**Pegasus Airlines**]() , [**Atlas Global**]() and [**Onur Air**]()
 
-Ticket price **currency** will be **TRY**
+Ticket price `currency` will be `TRY`
 
 For each airline company ticket price, flight date&time,current date&time and destination should be scraped.
 
@@ -30,7 +30,7 @@ These data should be scraped every five minutes of everyday.
 
 ### **2. Collecting and Storing Data**
 
-**MongoDB** will used as database in this project. Scraped data should be stored in separate databases for each company. Each database should store ticket price, flight date&time, destination, date&time(UTC +03:00) when scraped infos taken.
+Collected data will be stored in a document db (most likely MongoDB). Scraped data should be stored in separate databases for each company. Each database should store ticket price, flight date&time, destination, date&time (UTC +03:00) when scraped infos taken.
 
 
 
