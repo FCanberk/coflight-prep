@@ -39,6 +39,7 @@ So, on `2017-07-22` table should be like this
 | Destination |Flight 1|Flight 2|...|Flight 10|Flight 11|
 |-------------|--------|--------|---|---------|---|
 | IST-MLX     |2017-07-25 /15:30|2017-07-28 /22:50|...|2017-08-21 /16:15|2017-08-24 /05:35|
+
 If there would be no flights on `2017-08-24` then flights on `2017-08-25` would be queried.
 
 Here is another example.
