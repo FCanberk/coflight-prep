@@ -6,9 +6,9 @@ Every 5 minutes [AtlasGlobal](https://www.atlasglb.com/) website will be visited
 
 A valid citizenship id number and a valid credit card number will be needed for scrapping. Citizenship id numbers could be generated [here](https://www.simlict.com/tcno.html) and credit card numbers could be generated [here](https://names.igopaygo.com/credit-card).
 
-These are the steps should be followed:
+These are the steps that should be followed:
 
-Areas in the circle must be clicked or filled. Areas in rectangle have information to gather.
+**Areas in the circle must be clicked or filled. Areas in rectangle have information to gather.**
 
 Select departure airport, arrival airport, departure date, one way/round trip and if it is round trip select return date.
 ![atlas-pic1](https://s23.postimg.org/6ji8y24ln/at1.png)

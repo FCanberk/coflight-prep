@@ -6,9 +6,9 @@ Every 5 minutes [Pegasus Airlines](https://www.flypgs.com/) website will be visi
 
 A valid citizenship id number and a valid credit card number will be needed for scrapping. Citizenship id numbers could be generated [here](https://www.simlict.com/tcno.html) and credit card numbers could be generated [here](https://names.igopaygo.com/credit-card).
 
-These are the steps should be followed:
+These are the steps that should be followed:
 
-Areas in the circle must be clicked or filled. Areas in rectangle have information to gather.
+**Areas in the circle must be clicked or filled. Areas in rectangle have information to gather.**
 
 Select departure airport, arrival airport, departure date, one way/round trip and if it is round trip select return date.
 ![pgs-pic1](https://s11.postimg.org/wv7prob4j/pgs1.png)

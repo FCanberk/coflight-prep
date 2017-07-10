@@ -2,7 +2,7 @@
 
 ### Description
 
-Coflight is about inspecting pricing policies (strategies) of airline companies and proving the rumors are right or wrong on social media which says deleting cookies effects ticket prices.
+Coflight is about inspecting pricing policies (strategies) of airline companies and proving the rumors are right or wrong on social media which says deleting cookies affects ticket prices.
 
 In this project we will check plane ticket prices to see if there's any differences between deleting and not deleting cookies. 
 
@@ -41,3 +41,5 @@ Collected data will be demonstrated in different graphics to compare ticket pric
 * Ticket price of same destination for different departure times will graphically shown for whole year for each company. To see which season of year has the cheapest/the most expensive tickets.
 
 * Ticket price of same destination and same flight will graphically shown for whole year for each company. To see when is the cheapest/the most expensive ticket for a particular flight.
+
+Please refer to '[for-developers](for-developers.md)' to see the technologies used.

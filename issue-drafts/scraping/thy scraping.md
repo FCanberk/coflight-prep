@@ -6,8 +6,9 @@ Every 5 minutes [Turkish Airlines](http://www.turkishairlines.com/tr-tr/) websit
 
 A valid citizenship id number and a valid credit card number will be needed for scrapping. Citizenship id numbers could be generated [here](https://www.simlict.com/tcno.html) and credit card numbers could be generated [here](https://names.igopaygo.com/credit-card).
 
-These are the steps should be followed during one scraping session:
-Areas in the circle must be clicked or filled. Areas in rectangle have information to gather.
+These are the steps that should be followed:
+
+**Areas in the circle must be clicked or filled. Areas in rectangle have information to gather.**
 
 Select departure airport, arrival airport, departure date, one way/round trip and if it is round trip select return date.
 ![thy-pic1](https://s23.postimg.org/c7nmm85xn/image.png)

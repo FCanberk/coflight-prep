@@ -4,11 +4,11 @@ This guide describes collecting data process for Coflight project. It defines fr
 
 ### **Querying**
 
-Every five minutes, all flights in [dataset](!!FlightListLinkiEklenecek!!) will be queried.
+Every five minutes, all flights in `dataset` will be queried.
 
-This project will run for one year and some flights in dataset will be stayed in the past eventually. For that reason dataset will be dynamic and have to be updated in case of need.
+This project will run for one year and some flights in dataset will stay in the past eventually. For that reason dataset will be dynamic and have to be updated in case of need.
 
-### **Updating Dataset**
+### **Updating the Dataset**
 
 Initial dataset will be created manually and updated automatically.
 
