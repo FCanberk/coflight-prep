@@ -1,27 +1,31 @@
 ## **Data Collection Guideline**
 
+This guide describes collecting data process for Coflight project. It defines frequency of querying flights, when to update dataset and exceptional situations may occur while querying flights. All flights in the dataset will be queried periodically and will be updated if it is necessary.
+
 ### **Querying**
 
 Every five minutes, all flights in [dataset](!!FlightListLinkiEklenecek!!) will be queried.
 
-### **Updating Departure Dates**
+This project will run for one year and some flights in dataset will be stayed in the past eventually. For that reason dataset will be dynamic and have to be updated in case of need.
 
-Dataset will be dynamic. For that reason dataset have to be updated periodically.
+### **Updating Dataset**
 
-These are the steps should be followed everyday to update departure dates:
+Initial dataset will be created manually and updated automatically.
+
+These are the steps should be followed everyday to keep dataset up to date:
 
 1. Get current date once in a day.
 2. Calculate date difference between current date and latest flight for every destination.
-3. If date difference between latest flight's departure date and current date is lesser than 30 days
+3. If date difference between latest departure date of a flight and current date is lesser than 30 days
 4. Then add a flight to that destination 33 days after current date.
 5. Calculate date difference between current date and earliest flight for every destination.
-6. If date difference between earliest flight's departure date and current date is lesser or equal one day
+6. If date difference between earliest departure date of a flight and current date is lesser or equal one day
 7. Then stop querying that flight.
 
 #### Exceptional Situations
 
-* While updating departure dates, after the step 3 there might be no flights on the date that we queried. In this case, one day should be added to the queried date until a flight can found.
-* There might be no tickets for a flight that we queried. In this case, querying the flight should be stopped and the flight should be deleted from dataset.
+* While updating departure dates, after the step 3 there might be no flight on the date that we queried. In this case, one day should be added to the query date until a flight can found.
+* There might be no tickets for a flight that we queried. In this case, querying the flight should be stopped and that flight should be deleted from dataset.
 * A flight may be cancelled. In this case the flight should be deleted from the dataset and database.
 
 ### Examples

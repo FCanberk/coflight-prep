@@ -7,23 +7,25 @@ Every 5 minutes [Onur Air](https://www.onurair.com/tr/) website will be visited 
 A valid citizenship id number and a valid credit card number will be needed for scrapping. Citizenship id numbers could be generated [here](https://www.simlict.com/tcno.html) and credit card numbers could be generated [here](https://names.igopaygo.com/credit-card).
 
 These are the steps should be followed:
+Areas in the circle must be clicked or filled. Areas in rectangle have information to gather.
 
-Areas in the circle must be clicked or filled. Areas in rectangle 
+Select departure airport, arrival airport, departure date, one way/round trip and if it is round trip select return date.
+![onur-pic1](https://s10.postimg.org/hdzbrmy7t/image.png)
 
-Select departure airport, arrival airport, departure date, one way/round trip and if it is round trip select return date. 
-![onur-pic1](https://s16.postimg.org/yymvbr6zp/image.png)
+Select the flight in available flights. Get departure date&time.
+![onur-pic2](https://s4.postimg.org/60e1a55e5/image.png)
 
-Select the flight in available flights.Get the flight date&time inside the ractangle.
-![onur-pic2](https://s12.postimg.org/lf9aenw3x/image.png)
+If it will be one way trip skip this step, otherwise, select return flight.
+![onur-pic2.5](https://s4.postimg.org/idqvh1v2l/o2.5.png)
 
+Fill passanger informations. Click 'Continue'.
+![onur-pic3](https://s10.postimg.org/8y9ra4vcp/image.png)
 
-if its a one way trip skip this step
-![onur-pic2.5](https://s12.postimg.org/lf9aenw3x/image.png)
+Click 'I don't want Qualified Ticket Program' radiobutton then click continue. It is possible to get ticket price from this page.
+![onur-pic4](https://s10.postimg.org/g5bg6069l/image.png)
 
-![onur-pic3](https://s12.postimg.org/wsvtpv6ml/image.png)
+Fill credit card informations then click buy button. It is possible to get ticket price from this page.
+![onur-pic5](https://s10.postimg.org/su5qpoce1/image.png)
 
-![onur-pic4](https://s12.postimg.org/56t256n9p/image.png) 
-
-![onur-pic5](https://s12.postimg.org/my4ojn2od/image.png)
-
-![onur-pic6](https://s12.postimg.org/k5bgzm2bx/image.png)
+Finally you should get an error massage like this. It means scraping process done successfully.
+![onur-pic6](https://s10.postimg.org/4exiomdh5/image.png)

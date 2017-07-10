@@ -19,7 +19,7 @@ Sample input format for one way trip without cookies
 
 Sample input format for round trip with cookies
 
-`IST,BEG,20170928-2250,20170930-0010,WOC`
+`IST,BEG,20170928-2250,20170930-0010,RT,WOC`
 
 ### Output Format
 
