@@ -28,4 +28,4 @@ There should be 15 international and 15 domestic flights.
 `IST,ADA,20170101-0820,,OW,WOC`<br>
 `IST,ADA,20170101-0820,,OW,WC`<br>
 
-In this example there are four flights. Two of them are international and two of them are domestic flights.
+In this example there are four flights. Two of them are international flights, two of them are domestic flights.
