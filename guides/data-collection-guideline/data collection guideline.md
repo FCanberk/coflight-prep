@@ -22,15 +22,17 @@ These are the steps should be followed everyday to keep dataset up to date:
 6. If date difference between earliest departure date of a flight and current date is lesser or equal one day
 7. Then stop querying that flight.
 
-#### Exceptional Situations
+#### **Exceptional Situations**
 
 * While updating departure dates, after the step 3 there might be no flight on the date that we queried. In this case, one day should be added to the query date until a flight can found.
 * There might be no tickets for a flight that we queried. In this case, querying the flight should be stopped and that flight should be deleted from dataset.
 * A flight may be cancelled. In this case the flight should be deleted from the dataset and database.
 
-### Examples
+### **Examples**
 
 Here is an imaginary table for better understanding of how to collect data. It is assumed that today's date is **`2017-07-21`** there should be a table like this
+
+**Adding Flight**
 
 | Destination |Flight 1|Flight 2|...|Flight 10|
 |-------------|--------|--------|---|--------|
@@ -45,6 +47,8 @@ So, on `2017-07-22` table should be like this
 | IST-MLX     |2017-07-25 /15:30|2017-07-28 /22:50|...|2017-08-21 /16:15|2017-08-24 /05:35|
 
 If there would be no flights on `2017-08-24` then flights on `2017-08-25` would be queried.
+
+**Removing Flight**
 
 Here is another example.
 

@@ -1,0 +1,1 @@
+Collected data should be demonstrated in daily, weekly, monthly and annual graphics for each company and each flight. Demonstration should be in a Web UI.
