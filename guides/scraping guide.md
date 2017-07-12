@@ -11,15 +11,14 @@ Input format will be in CSV format and it will include the following in the writ
 * Departure date and time
 * Return date and time
 * One way/roundtrip info
-* Cookie info values
 
-Sample input format for one way trip without cookies
+Sample input format for one way trip
 
-`IST,ADA,20170928-1530,,OW,WC`
+`IST,ADA,20170928-1530,,OW`
 
-Sample input format for round trip with cookies
+Sample input format for round trip
 
-`IST,BEG,20170928-2250,20170930-0010,RT,WOC`
+`IST,BEG,20170928-2250,20170930-0010,RT`
 
 ### Output Format
 
@@ -31,11 +30,12 @@ Output format will be in CSV format and it will include the following in the wri
 * Return date and time
 * Current date and time
 * Ticket price
+* Cookie info values
 
 Sample output format of one way trip with cookies
 
-`SAW,OTP,20170327-2300,,20170705-1247,127.99`
+`SAW,OTP,20170327-2300,,20170705-1247,127.99,WC`
 
 Sample output format of round trip without cookies
 
-`LHR,IST,20171230-0515,20180105-1500,20170705-1247,215.00`
+`LHR,IST,20171230-0515,20180105-1500,20170705-1247,215.00,WOC`
