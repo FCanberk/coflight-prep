@@ -1,10 +1,10 @@
 ## Project Details for Developers
 
-Coflight will run on **AWS. Selenium Web Driver, Javascript(NodeJS)** and **PhantomJS.** will be used for scraping. **MongoDB** will be used for storing the data that collected. The project has 3 main parts. 
+Coflight will run on **Google Cloud Platform. Selenium Web Driver, Python** and **PhantomJS.** will be used for scraping. **PostgreSQL** will be used for storing the data that collected. The project has 3 main parts. 
 
-### **1. Scraping** 
+### **1. Scraping**
 
-**Selenium Web Driver**, **Javascript(NodeJS)** and **PhantomJS.** will be used for scraping flight data of airline companies linked below
+**Selenium Web Driver**, **Python** and **PhantomJS.** will be used for scraping flight data of airline companies linked below
 
 * #### [Turkish Airlines](https://www.turkishairlines.com/)
 * #### [Pegasus Airlines](https://www.flypgs.com/)
@@ -24,11 +24,13 @@ For each airline company ticket price, flight date&time,current date&time and de
 <br>For Onur Air         15 International 15 Domestic flights data 
 should be scraped with and without deleting cookies.
 
-These data should be scraped every five minutes of everyday. 
+These data should be scraped every five minutes.
 
 ### **2. Collecting and Storing Data**
 
-Collected data will be stored in a document db (most likely MongoDB). Scraped data should be stored in separate databases for each company. Each database should store ticket price, flight date&time, destination, date&time (UTC +03:00) when scraped infos taken.
+Collected data will be stored in a document db (most likely PostgreSQL). Scraped data should be stored in separate databases for each company. Each database should store ticket price, flight date&time, destination, date&time (UTC +03:00) when scraped infos taken.
+
+Initial dataset should be stored in database and the database should be updated every flight update.
 
 ### **3. Demonstrating**
 
@@ -37,7 +39,7 @@ Collected data should be demonstrated in different graphics to compare ticket pr
 * Daily ticket price of same ticket with and without cookies,
 * Weekly ticket price of same ticket with and without cookies,
 * Monthly ticket price of same ticket with and without cookies, 
-* Yearly ticket price of same ticket with and without cookies  graphics should be demonstrated.
+* Annual ticket price of same ticket with and without cookies graphics should be reported.
 
 ### Bonus Objectives
 

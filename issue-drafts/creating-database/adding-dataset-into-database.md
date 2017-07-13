@@ -1,0 +1,1 @@
+Initial database should be added into database and updated when flights updated. If a flight doesn't exist anymore that flight should be marked as false and no more queries will be done for that flight.

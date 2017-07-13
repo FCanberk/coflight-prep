@@ -6,9 +6,9 @@ Coflight is about inspecting pricing policies (strategies) of airline companies 
 
 In this project we will check plane ticket prices to see if there's any differences between deleting and not deleting cookies. 
 
-<br>With the data we collect we will also be able to answer these questions
-<br>When is the cheapest and the most expensive season to buy any plane ticket ?
-<br>When is the cheapest and the most expensive price to buy a plane ticket according to time left before take off ?
+With the data we collect we will also be able to answer these questions
+* When is the cheapest and the most expensive season to buy any plane ticket ?
+* When is the cheapest and the most expensive price to buy a plane ticket according to time left before take off ?
 
 ### **Scope**
 
@@ -34,12 +34,12 @@ Collected data will be demonstrated in different graphics to compare ticket pric
 * Daily ticket price
 * Weekly ticket price
 * Monthly ticket price
-* Annualy ticket price graphics will be demonstrated
+* Annual ticket price graphics will be reported.
 
 ### Bonus Objectives
 
-* Ticket price of same destination for different departure times will graphically shown for whole year for each company. To see which season of year has the cheapest/the most expensive tickets.
+* Ticket price of same destination on different departure dates will graphically shown for a year for each company to see which season of year has the cheapest/the most expensive tickets.
 
-* Ticket price of same destination and same flight will graphically shown for whole year for each company. To see when is the cheapest/the most expensive ticket for a particular flight.
+* Ticket price of same flight will graphically shown for a year for each company. To see when is the cheapest and the most expensive ticket for a particular flight.
 
 Please refer to '[for-developers](for-developers.md)' to see the technologies used.

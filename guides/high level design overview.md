@@ -26,4 +26,4 @@ This module is to provide an interface to the database for inserting and queryin
 
 ### Database
 
-All operational data will be stored in a document db (most likely MongoDB). Operational data includes the periodic scraping of tickets, scraping metadata (destination, flight date and time, etc)
+All operational data will be stored in a document db (most likely PostgreSQL). Operational data includes the periodic scraping of tickets, scraping metadata (destination, flight date and time, etc)

@@ -32,7 +32,7 @@ These are the steps should be followed everyday to keep dataset up to date:
 
 Here is an imaginary table for better understanding of how to collect data. It is assumed that today's date is **`2017-07-21`** there should be a table like this
 
-**Adding Flight**
+#### **Adding Flight**
 
 | Destination |Flight 1|Flight 2|...|Flight 10|
 |-------------|--------|--------|---|--------|
@@ -48,7 +48,7 @@ So, on `2017-07-22` table should be like this
 
 If there would be no flights on `2017-08-24` then flights on `2017-08-25` would be queried.
 
-**Removing Flight**
+#### **Removing Flight**
 
 Here is another example.
 
